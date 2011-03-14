@@ -33,8 +33,11 @@ GEM
     activesupport (3.0.5)
     arel (2.0.9)
     builder (2.1.2)
+    compass (0.10.6)
+      haml (>= 3.0.4)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    haml (3.0.25)
     i18n (0.5.0)
     jquery-rails (0.2.7)
       rails (~> 3.0)
@@ -76,6 +79,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-sqlserver-adapter (= 3.0.10)
+  compass (= 0.10.6)
   jquery-rails (= 0.2.7)
   rails (= 3.0.5)
   tiny_tds (= 0.3.2)
