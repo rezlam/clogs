@@ -1,0 +1,32 @@
+hr.line-double
+  background: transparent url('../images/line-double.png') repeat-x scroll 0 0
+  height: 2px
+  +append-bottom
+
+.left
+  +column(12)
+  +prepend($spacer-columns)
+
+.right
+  +column(7, true)
+  +prepend(2)
+
+$quick-nav-columns: 4
+
+.quick-nav
+  +column($quick-nav-columns)
+
+.quick-nav-last
+  +column($quick-nav-columns, true)
+
+#footer-l
+  background-color: $blue-8
+  border-top: 1px solid $blue-7
+
+#footer-m
+  background-color: $blue-5
+  border-top: 1px solid #FFF
+
+#footer-d
+  background-color: $blue-3
+  border-top: 1px solid $blue-6

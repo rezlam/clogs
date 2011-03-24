@@ -26,18 +26,21 @@
 //    |        #footer-d       |
 //    +------------------------+
 
-$spacer-columns: 4
-$content-columns: $blueprint-grid-columns - $spacer-columns
 
 #container
   +container
+  margin: 0 auto 0 0
   
-#header, #footer-l, #footer-m, #footer-d
-  +column($blueprint-grid-columns, true)
+#header
+  +column($header-columns, true)
+  +prepend($blueprint-grid-columns - $header-columns)
 
 #spacer
   +column($spacer-columns)
 
 #content
   +column($content-columns, true)
+
+#footer-l, #footer-m, #footer-d
+  +column($blueprint-grid-columns, true)
 
