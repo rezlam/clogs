@@ -1,4 +1,4 @@
-@import typography
+@import blueprint/typography
 
 $alternate-text-font: Georgia, "Book Antiqua", "Warnock Pro", "Goudy Old Style", "Palatino", serif !default
 
@@ -42,14 +42,10 @@ $alternate-text-font: Georgia, "Book Antiqua", "Warnock Pro", "Goudy Old Style",
 // * `$font-size` - The desired font size in pixels. This will be converted to ems for you. Defaults to 10px.
 // * `$base-font-size` - The base font size in pixels. Defaults to 12px
 // * `$old-line-height` - The old line height. Defaults to 1.5 times the base-font-size
-=incr(
-  $font-size: 10px,
-  $base-font-size: $blueprint-font-size,
-  $old-line-height: $base-font-size * 1.5
-)
-  font-size: 1em * $font-size / $base-font-size
-  line-height: 1em * $old-line-height / $font-size * 4 / 5
-  margin-bottom: 1.5em
+//=incr($font-size: 10px, $base-font-size: $blueprint-font-size, $old-line-height: $base-font-size * 1.5)
+//  font-size: 1em * $font-size / $base-font-size
+//  line-height: 1em * $old-line-height / $font-size * 4 / 5
+//  margin-bottom: 1.5em
 
 
 // Surround uppercase words and abbreviations with this class.

@@ -29,13 +29,15 @@
 $spacer-columns: 4
 $content-columns: $blueprint-grid-columns - $spacer-columns
 
-body
-  #container
-    +container
-  #header, #footer-l, #footer-m, #footer-d
-    +column($blueprint-grid-columns, true)
-  #spacer
-    +column($spacer-columns)
-  #content
-    +column($content-columns, true)
+#container
+  +container
+  
+#header, #footer-l, #footer-m, #footer-d
+  +column($blueprint-grid-columns, true)
+
+#spacer
+  +column($spacer-columns)
+
+#content
+  +column($content-columns, true)
 
