@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @page.title %>
+</p>
+
+<p>
+  <b>Slug:</b>
+  <%= @page.slug %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @page.description %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @page.content %>
+</p>
+
+<p>
+  <b>Layout:</b>
+  <%= @page.layout %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @page.url %>
+</p>
+
+<p>
+  <b>Views:</b>
+  <%= @page.views %>
+</p>
+
+<p>
+  <b>Published:</b>
+  <%= @page.published %>
+</p>
+
+
+<%= link_to 'Edit', edit_page_path(@page) %> |
+<%= link_to 'Back', pages_path %>
