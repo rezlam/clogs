@@ -377,24 +377,45 @@ caption {
 }
 
 /* line 1, ../../app/stylesheets/partials/_global.sass */
+body {
+  background: white url('/images/pattern-background.png?1301013879') repeat-x scroll left 7.5em;
+}
+
+/* line 4, ../../app/stylesheets/partials/_global.sass */
 .nav {
   padding: 0;
   font-size: 0.9em;
   line-height: 1;
   margin-bottom: 1.1em;
 }
-/* line 4, ../../app/stylesheets/partials/_global.sass */
+/* line 7, ../../app/stylesheets/partials/_global.sass */
 .nav ul {
   list-style: nome;
 }
-/* line 6, ../../app/stylesheets/partials/_global.sass */
+/* line 9, ../../app/stylesheets/partials/_global.sass */
 .nav li {
   display: inline;
   margin-left: 16px;
 }
-/* line 9, ../../app/stylesheets/partials/_global.sass */
+/* line 12, ../../app/stylesheets/partials/_global.sass */
 .nav li:first-child {
   margin-left: 0;
+}
+
+/* line 1, ../../app/stylesheets/partials/_header.sass */
+#header {
+  height: 4.5em;
+}
+
+/* line 2, ../../app/stylesheets/partials/_spacer.sass */
+#spacer img {
+  margin-top: 5.25em;
+  margin-left: 24px;
+}
+
+/* line 1, ../../app/stylesheets/partials/_content.sass */
+#content {
+  background-color: white;
 }
 
 /* line 11, ../../app/stylesheets/partials/_footer.sass */
