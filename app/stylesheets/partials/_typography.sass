@@ -1,0 +1,152 @@
+@import "colors"
+@import "compass/utilities/links/link-colors"
+@import "compass/utilities/general/float"
+
+$font-family: Arial, Helvetica, "Helvetica Neue", sans-serif !default
+$fixed-font-family: "lucida console", "andale mono", monospace !default
+$font-size: 12px !default
+$font-color: $blue-2
+$header-color: $blue-1
+
+
+=typography($body-selector: body)
+  @if $body-selector == true
+    +typography-body
+    +typography-defaults
+  @else
+    #{$body-selector}
+      +typography-body
+      @if $body-selector != body
+        //@warn "[DEPRECATED] To specify the selector \"#{$body-selector}\\" to +typography, pass true as the first argument and mix it into #{$body-selector}."
+        +typography-defaults
+    @if $body-selector == body
+      +typography-defaults
+
+=normal-text
+  font-family: $font-family
+  color: $font-color
+
+=small-text
+  font-size: 0.9em
+  line-height: 1
+  margin-bottom: 1.1em
+
+=fixed-width-text
+  font: 1em $fixed-font-family
+  line-height: 1.5
+
+=header-text
+  font-weight: normal
+  color: $header-color
+
+=quiet
+  color: $quiet-color
+
+=loud
+  color: $loud-color
+
+
+=typography-body($font-size: $font-size)
+  line-height: 1.5
+  +normal-text
+  font-size: 100% * $font-size / 16px
+
+=typography-defaults
+  #{headers(all)}
+    +header-text
+    img
+      margin: 0
+  h1
+    font-size: 3em
+    line-height: 1
+    margin-bottom: 0.50em
+  h2
+    font-size: 2em
+    margin-bottom: 0.75em
+  h3
+    font-size: 1.5em
+    line-height: 1
+    margin-bottom: 1.00em
+  h4
+    font-size: 1.2em
+    line-height: 1
+    margin-bottom: 0.25em
+  h5
+    font-size: 1em
+    font-weight: bold
+    margin-bottom: 1.50em
+  h6
+    font-size: 1em
+    font-weight: bold
+  p
+    margin: 0 0 1.5em
+    img.left
+      +float-left
+      margin: 1.5em 1.5em 1.5em 0
+      padding: 0
+    img.right
+      +float-right
+      margin: 1.5em 0 1.5em 1.5em
+      padding: 0
+  a
+    text-decoration: underline
+    +link-colors($link-color, $link-hover-color, $link-active-color, $link-visited-color, $link-focus-color)
+  blockquote
+    margin: 1.5em
+    color: $alt_text_color
+    font-style: italic
+  strong
+    font-weight: bold
+  em
+    font-style: italic
+  dfn
+    font-style: italic
+    font-weight: bold
+  sup, sub
+    line-height: 0
+  abbr, acronym
+    border-bottom: 1px dotted #666666
+  address
+    margin: 0 0 1.5em
+    font-style: italic
+  del
+    color: $alt_text_color
+  pre
+    margin: 1.5em 0
+    white-space: pre
+  pre, code, tt
+    +fixed-width-text
+  li ul, li ol
+    margin: 0
+  ul, ol
+    margin: 0 0 $vertical-space 0
+    padding-left: 15px
+  ul
+    list-style-type: disc
+  ol
+    list-style-type: decimal
+  dl
+    margin: 0 0 1.5em 0
+    dt
+      font-weight: bold
+  dd
+    margin-left: 1.5em
+  table
+    margin-bottom: 1.4em
+    width: 100%
+  th
+    font-weight: bold
+  thead th
+    background: $blueprint-table-header-color
+  th, td, caption
+    padding: 4px 10px 4px 5px
+  tr.even td
+    background: $blueprint-table-stripe-color
+  tfoot
+    font-style: italic
+  caption
+    background: $blueprint_background_color
+  .quiet
+    +quiet
+  .loud
+    +loud
