@@ -1,0 +1,46 @@
+$billboard-width: $blueprint-grid-outer-width * 15
+$billboard-height: $vertical-space * 17
+$ads-size: $billboard-width * 4
+
+#billboard
+  background: $grey-9 image_url("ajax-loader.gif") no-repeat scroll center center
+  position: relative
+  +column(15)
+  margin-right: 0
+  width: $billboard-width
+  ul
+    list-style: none
+  ul, li
+    margin: 0
+    padding: 0
+  #ads
+    width: $billboard-width
+    height: $billboard-height
+    overflow: hidden
+    ul
+      height: $billboard-height
+      width: $ads-size
+    li
+      float: left
+  #buttons
+    position: absolute
+    z-index: 2
+    bottom: $blueprint-grid-margin
+    right: $blueprint-grid-margin
+    //display: none
+    li
+      margin-left: $blueprint-grid-margin
+      float: left
+    a
+      padding: 2px 5px
+      color: #FFF
+      font-size: 0.75em
+      text-align: center
+      text-decoration: none
+      &:hover
+        background-color: $blue-5
+
+.on
+  background-color: $blue-5 !important
+.off
+  background-color: $blue-3

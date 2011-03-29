@@ -85,7 +85,7 @@ a img {
 /* line 17, ../../app/stylesheets/partials/_typography.sass */
 body {
   line-height: 1.5;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
   color: #1e3950;
   font-size: 75%;
 }
@@ -233,7 +233,7 @@ pre {
 
 /* line 117, ../../app/stylesheets/partials/_typography.sass */
 pre, code, tt {
-  font: 1em "andale mono", "lucida console", monospace;
+  font: 1em "lucida console", "andale mono", monospace;
   line-height: 1.5;
 }
 
@@ -418,7 +418,94 @@ body {
   background-color: white;
 }
 
-/* line 11, ../../app/stylesheets/partials/_footer.sass */
+/* line 5, ../../app/stylesheets/partials/_billboard.sass */
+#billboard {
+  background: #eff0eb url('/images/ajax-loader.gif?1301013879') no-repeat scroll center center;
+  position: relative;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 590px;
+  margin-right: 0;
+  width: 600px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #billboard {
+  overflow-x: hidden;
+}
+/* line 11, ../../app/stylesheets/partials/_billboard.sass */
+#billboard ul {
+  list-style: none;
+}
+/* line 13, ../../app/stylesheets/partials/_billboard.sass */
+#billboard ul, #billboard li {
+  margin: 0;
+  padding: 0;
+}
+/* line 16, ../../app/stylesheets/partials/_billboard.sass */
+#billboard #ads {
+  width: 600px;
+  height: 25.5em;
+  overflow: hidden;
+}
+/* line 20, ../../app/stylesheets/partials/_billboard.sass */
+#billboard #ads ul {
+  height: 25.5em;
+  width: 2400px;
+}
+/* line 23, ../../app/stylesheets/partials/_billboard.sass */
+#billboard #ads li {
+  float: left;
+}
+/* line 25, ../../app/stylesheets/partials/_billboard.sass */
+#billboard #buttons {
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  right: 10px;
+}
+/* line 31, ../../app/stylesheets/partials/_billboard.sass */
+#billboard #buttons li {
+  margin-left: 10px;
+  float: left;
+}
+/* line 34, ../../app/stylesheets/partials/_billboard.sass */
+#billboard #buttons a {
+  padding: 2px 5px;
+  color: white;
+  font-size: 0.75em;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 40, ../../app/stylesheets/partials/_billboard.sass */
+#billboard #buttons a:hover {
+  background-color: #4e7ba3;
+}
+
+/* line 43, ../../app/stylesheets/partials/_billboard.sass */
+.on {
+  background-color: #4e7ba3 !important;
+}
+
+/* line 45, ../../app/stylesheets/partials/_billboard.sass */
+.off {
+  background-color: #234b6f;
+}
+
+/* line 1, ../../app/stylesheets/partials/_menu.sass */
+#menu {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+  background: url('/images/grid.png?1300057983');
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #menu {
+  overflow-x: hidden;
+}
+
+/* line 9, ../../app/stylesheets/partials/_footer.sass */
 hr.line-double {
   clear: both;
   float: none;
@@ -430,16 +517,16 @@ hr.line-double {
   height: 2px;
 }
 
-/* line 16, ../../app/stylesheets/partials/_footer.sass */
+/* line 14, ../../app/stylesheets/partials/_footer.sass */
 ul.arrow-light {
   list-style-image: url('/images/arrow-light.png?1301013879');
 }
-/* line 18, ../../app/stylesheets/partials/_footer.sass */
+/* line 16, ../../app/stylesheets/partials/_footer.sass */
 ul.arrow-light li {
   margin-bottom: 0.45em;
 }
 
-/* line 21, ../../app/stylesheets/partials/_footer.sass */
+/* line 19, ../../app/stylesheets/partials/_footer.sass */
 .left {
   display: inline;
   float: left;
@@ -452,7 +539,7 @@ ul.arrow-light li {
   overflow-x: hidden;
 }
 
-/* line 25, ../../app/stylesheets/partials/_footer.sass */
+/* line 23, ../../app/stylesheets/partials/_footer.sass */
 .right {
   display: inline;
   float: left;
@@ -465,7 +552,7 @@ ul.arrow-light li {
   overflow-x: hidden;
 }
 
-/* line 31, ../../app/stylesheets/partials/_footer.sass */
+/* line 29, ../../app/stylesheets/partials/_footer.sass */
 .quick-nav {
   display: inline;
   float: left;
@@ -477,7 +564,7 @@ ul.arrow-light li {
   overflow-x: hidden;
 }
 
-/* line 34, ../../app/stylesheets/partials/_footer.sass */
+/* line 32, ../../app/stylesheets/partials/_footer.sass */
 .quick-nav-last {
   display: inline;
   float: left;
@@ -489,48 +576,48 @@ ul.arrow-light li {
   overflow-x: hidden;
 }
 
-/* line 37, ../../app/stylesheets/partials/_footer.sass */
+/* line 35, ../../app/stylesheets/partials/_footer.sass */
 #footer-l {
   background-color: #d1dbe5;
   border-top: 1px solid #b8c4d4;
 }
-/* line 40, ../../app/stylesheets/partials/_footer.sass */
+/* line 38, ../../app/stylesheets/partials/_footer.sass */
 #footer-l .left, #footer-l .right {
   margin-bottom: 1.5em;
 }
-/* line 42, ../../app/stylesheets/partials/_footer.sass */
+/* line 40, ../../app/stylesheets/partials/_footer.sass */
 #footer-l #newsletter {
   margin-top: 3em;
 }
 
-/* line 45, ../../app/stylesheets/partials/_footer.sass */
+/* line 43, ../../app/stylesheets/partials/_footer.sass */
 #footer-m {
   background-color: #4e7ba3;
   border-top: 1px solid white;
 }
 
-/* line 49, ../../app/stylesheets/partials/_footer.sass */
+/* line 47, ../../app/stylesheets/partials/_footer.sass */
 #footer-d {
   background-color: #234b6f;
   border-top: 1px solid #6c9cc7;
 }
-/* line 52, ../../app/stylesheets/partials/_footer.sass */
+/* line 50, ../../app/stylesheets/partials/_footer.sass */
 #footer-d .left, #footer-d .right {
   margin-top: 1.125em;
 }
-/* line 54, ../../app/stylesheets/partials/_footer.sass */
+/* line 52, ../../app/stylesheets/partials/_footer.sass */
 #footer-d p {
   font-size: 0.9em;
   line-height: 1;
   margin-bottom: 1.1em;
 }
 
-/* line 58, ../../app/stylesheets/partials/_footer.sass */
+/* line 56, ../../app/stylesheets/partials/_footer.sass */
 #footer-l .left, #footer-l .right, #footer-m .left, #footer-m .right {
   margin-top: 3em;
 }
 
-/* line 62, ../../app/stylesheets/partials/_footer.sass */
+/* line 60, ../../app/stylesheets/partials/_footer.sass */
 #footer-m p, #footer-m li, #footer-d p, #footer-d li {
   color: #c3ccd9;
 }
