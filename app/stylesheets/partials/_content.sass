@@ -1,2 +1,36 @@
+=quote
+  background: transparent image_url("icon-quote.png") no-repeat scroll left top
+
+hr.line-dashed
+  +ruler
+  background: transparent url('../images/line-dashed.png') repeat-x scroll 0 0
+  height: 1px
+
 #content
   background-color: #FFF
+  .left, .right
+    +prepend-top($vertical-space * 3)
+  .left
+    +column(12)
+    +showgrid
+  .right
+    +column(8, true)
+    +prepend(1)
+  #quotes
+    +column(10, true)
+    +prepend(1)
+    +append(1)
+    +append-bottom($vertical-space)
+    +quote
+    h2
+      +alt
+      line-height: 1.35
+  #video
+    #player, #desc
+      +append-bottom($vertical-space)
+    #player
+      +column(6)
+      +prepend(1)
+    #desc
+      +column(4, true)
+      +append(1)

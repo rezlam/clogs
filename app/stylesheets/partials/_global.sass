@@ -1,3 +1,11 @@
+=ruler
+  clear: both
+  float: none
+  width: 100%
+  height: 0.1em
+  border: none
+  margin: 0 0 $vertical-space
+
 body
   background: #FFF image_url("pattern-background.png") repeat-x scroll left ($vertical-space * 5)
 
@@ -11,3 +19,8 @@ body
     margin-left: 16px
     &:first-child
       margin-left: 0
+
+.small
+  +small-text
+  +quiet
+

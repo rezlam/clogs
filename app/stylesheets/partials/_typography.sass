@@ -29,7 +29,7 @@ $header-color: $blue-1
 =small-text
   font-size: 0.9em
   line-height: 1
-  margin-bottom: 1.1em
+  margin-bottom: 0.75em
 
 =fixed-width-text
   font: 1em $fixed-font-family
@@ -40,7 +40,7 @@ $header-color: $blue-1
   color: $header-color
 
 =quiet
-  color: $quiet-color
+  color: $grey-5 //$quiet-color
 
 =loud
   color: $loud-color
@@ -61,16 +61,17 @@ $header-color: $blue-1
     line-height: 1
     margin-bottom: 0.50em
   h2
-    font-size: 2em
+    font-size: 2.2em
+    line-height: 1
     margin-bottom: 0.75em
   h3
     font-size: 1.5em
     line-height: 1
     margin-bottom: 1.00em
   h4
-    font-size: 1.2em
+    font-size: 1.25em
     line-height: 1
-    margin-bottom: 0.25em
+    margin-bottom: 0.5em
   h5
     font-size: 1em
     font-weight: bold
@@ -79,7 +80,7 @@ $header-color: $blue-1
     font-size: 1em
     font-weight: bold
   p
-    margin: 0 0 1.5em
+    margin: 0 0 1em
     img.left
       +float-left
       margin: 1.5em 1.5em 1.5em 0
@@ -171,7 +172,7 @@ $alternate-text-font: Georgia, "Book Antiqua", "Warnock Pro", "Goudy Old Style",
 // `<span class="alt">asdf</span>`
 // Best used on prepositions and ampersands.
 =alt
-  color: $alt-text-color
+  color: $grey-5 //$alt-text-color
   font-family: $alternate-text-font
   font-style: italic
   font-weight: normal

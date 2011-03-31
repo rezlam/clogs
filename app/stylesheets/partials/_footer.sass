@@ -1,11 +1,3 @@
-=ruler
-  clear: both
-  float: none
-  width: 100%
-  height: 0.1em
-  margin: 0 0 $vertical-space
-  border: none
-
 hr.line-double
   +ruler
   background: transparent url('../images/line-double.png') repeat-x scroll 0 0
@@ -16,13 +8,14 @@ ul.arrow-light
   li
     +append-bottom(0.45em)
 
-.left
-  +column(12)
-  +prepend($spacer-columns)
 
-.right
-  +column(7, true)
-  +prepend(2)
+#footer-l, #footer-m, #footer-d
+  .left
+    +column(12)
+    +prepend($spacer-columns)
+  .right
+    +column(7, true)
+    +prepend(2)
 
 $quick-nav-columns: 4
 
