@@ -137,22 +137,24 @@ h5 {
 
 /* line 79, ../../app/stylesheets/partials/_typography.sass */
 h6 {
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 0.9em;
+  line-height: 1;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
 }
 
-/* line 82, ../../app/stylesheets/partials/_typography.sass */
+/* line 85, ../../app/stylesheets/partials/_typography.sass */
 p {
   margin: 0 0 1em;
 }
-/* line 84, ../../app/stylesheets/partials/_typography.sass */
+/* line 87, ../../app/stylesheets/partials/_typography.sass */
 p img.left {
   display: inline;
   float: left;
   margin: 1.5em 1.5em 1.5em 0;
   padding: 0;
 }
-/* line 88, ../../app/stylesheets/partials/_typography.sass */
+/* line 91, ../../app/stylesheets/partials/_typography.sass */
 p img.right {
   display: inline;
   float: right;
@@ -160,7 +162,7 @@ p img.right {
   padding: 0;
 }
 
-/* line 92, ../../app/stylesheets/partials/_typography.sass */
+/* line 95, ../../app/stylesheets/partials/_typography.sass */
 a {
   text-decoration: underline;
   color: #000099;
@@ -182,139 +184,139 @@ a:active {
   color: #cc0099;
 }
 
-/* line 95, ../../app/stylesheets/partials/_typography.sass */
+/* line 98, ../../app/stylesheets/partials/_typography.sass */
 blockquote {
   margin: 1.5em;
   color: #666666;
   font-style: italic;
 }
 
-/* line 99, ../../app/stylesheets/partials/_typography.sass */
+/* line 102, ../../app/stylesheets/partials/_typography.sass */
 strong {
   font-weight: bold;
 }
 
-/* line 101, ../../app/stylesheets/partials/_typography.sass */
+/* line 104, ../../app/stylesheets/partials/_typography.sass */
 em {
   font-style: italic;
 }
 
-/* line 103, ../../app/stylesheets/partials/_typography.sass */
+/* line 106, ../../app/stylesheets/partials/_typography.sass */
 dfn {
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 106, ../../app/stylesheets/partials/_typography.sass */
+/* line 109, ../../app/stylesheets/partials/_typography.sass */
 sup, sub {
   line-height: 0;
 }
 
-/* line 108, ../../app/stylesheets/partials/_typography.sass */
+/* line 111, ../../app/stylesheets/partials/_typography.sass */
 abbr, acronym {
   border-bottom: 1px dotted #666666;
 }
 
-/* line 110, ../../app/stylesheets/partials/_typography.sass */
+/* line 113, ../../app/stylesheets/partials/_typography.sass */
 address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 
-/* line 113, ../../app/stylesheets/partials/_typography.sass */
+/* line 116, ../../app/stylesheets/partials/_typography.sass */
 del {
   color: #666666;
 }
 
-/* line 115, ../../app/stylesheets/partials/_typography.sass */
+/* line 118, ../../app/stylesheets/partials/_typography.sass */
 pre {
   margin: 1.5em 0;
   white-space: pre;
 }
 
-/* line 118, ../../app/stylesheets/partials/_typography.sass */
+/* line 121, ../../app/stylesheets/partials/_typography.sass */
 pre, code, tt {
   font: 1em "lucida console", "andale mono", monospace;
   line-height: 1.5;
 }
 
-/* line 120, ../../app/stylesheets/partials/_typography.sass */
+/* line 123, ../../app/stylesheets/partials/_typography.sass */
 li ul, li ol {
   margin: 0;
 }
 
-/* line 122, ../../app/stylesheets/partials/_typography.sass */
+/* line 125, ../../app/stylesheets/partials/_typography.sass */
 ul, ol {
   margin: 0 0 1.5em 0;
   padding-left: 15px;
 }
 
-/* line 125, ../../app/stylesheets/partials/_typography.sass */
+/* line 128, ../../app/stylesheets/partials/_typography.sass */
 ul {
   list-style-type: disc;
 }
 
-/* line 127, ../../app/stylesheets/partials/_typography.sass */
+/* line 130, ../../app/stylesheets/partials/_typography.sass */
 ol {
   list-style-type: decimal;
 }
 
-/* line 129, ../../app/stylesheets/partials/_typography.sass */
+/* line 132, ../../app/stylesheets/partials/_typography.sass */
 dl {
   margin: 0 0 1.5em 0;
 }
-/* line 131, ../../app/stylesheets/partials/_typography.sass */
+/* line 134, ../../app/stylesheets/partials/_typography.sass */
 dl dt {
   font-weight: bold;
 }
 
-/* line 133, ../../app/stylesheets/partials/_typography.sass */
+/* line 136, ../../app/stylesheets/partials/_typography.sass */
 dd {
   margin-left: 1.5em;
 }
 
-/* line 135, ../../app/stylesheets/partials/_typography.sass */
+/* line 138, ../../app/stylesheets/partials/_typography.sass */
 table {
   margin-bottom: 1.4em;
   width: 100%;
 }
 
-/* line 138, ../../app/stylesheets/partials/_typography.sass */
+/* line 141, ../../app/stylesheets/partials/_typography.sass */
 th {
   font-weight: bold;
 }
 
-/* line 140, ../../app/stylesheets/partials/_typography.sass */
+/* line 143, ../../app/stylesheets/partials/_typography.sass */
 thead th {
   background: #c3d9ff;
 }
 
-/* line 142, ../../app/stylesheets/partials/_typography.sass */
+/* line 145, ../../app/stylesheets/partials/_typography.sass */
 th, td, caption {
   padding: 4px 10px 4px 5px;
 }
 
-/* line 144, ../../app/stylesheets/partials/_typography.sass */
+/* line 147, ../../app/stylesheets/partials/_typography.sass */
 tr.even td {
   background: #e5ecf9;
 }
 
-/* line 146, ../../app/stylesheets/partials/_typography.sass */
+/* line 149, ../../app/stylesheets/partials/_typography.sass */
 tfoot {
   font-style: italic;
 }
 
-/* line 148, ../../app/stylesheets/partials/_typography.sass */
+/* line 151, ../../app/stylesheets/partials/_typography.sass */
 caption {
   background: #eeeeee;
 }
 
-/* line 150, ../../app/stylesheets/partials/_typography.sass */
+/* line 153, ../../app/stylesheets/partials/_typography.sass */
 .quiet {
   color: #999999;
 }
 
-/* line 152, ../../app/stylesheets/partials/_typography.sass */
+/* line 155, ../../app/stylesheets/partials/_typography.sass */
 .loud {
   color: #111111;
 }
@@ -411,6 +413,11 @@ body {
   color: #999999;
 }
 
+/* line 26, ../../app/stylesheets/partials/_global.sass */
+p.small {
+  margin-top: -0.25em;
+}
+
 /* line 1, ../../app/stylesheets/partials/_header.sass */
 #header {
   height: 4.5em;
@@ -462,13 +469,19 @@ hr.line-dashed {
   margin-right: 0;
   width: 310px;
   padding-left: 40px;
-  background: url('/images/grid.png?1300057983');
 }
 /* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html #content .right {
   overflow-x: hidden;
 }
-/* line 21, ../../app/stylesheets/partials/_content.sass */
+/* line 20, ../../app/stylesheets/partials/_content.sass */
+#content .right h1 {
+  font-weight: bold;
+  font-size: 3.4em;
+  margin-bottom: 0.75em;
+  color: #1d3142;
+}
+/* line 25, ../../app/stylesheets/partials/_content.sass */
 #content #quotes {
   display: inline;
   float: left;
@@ -483,7 +496,7 @@ hr.line-dashed {
 * html #content #quotes {
   overflow-x: hidden;
 }
-/* line 27, ../../app/stylesheets/partials/_content.sass */
+/* line 31, ../../app/stylesheets/partials/_content.sass */
 #content #quotes h2 {
   color: #999999;
   font-family: Georgia, "Book Antiqua", "Warnock Pro", "Goudy Old Style", "Palatino", serif;
@@ -492,11 +505,11 @@ hr.line-dashed {
   font-size: 2.2em;
   line-height: 1.35;
 }
-/* line 32, ../../app/stylesheets/partials/_content.sass */
+/* line 36, ../../app/stylesheets/partials/_content.sass */
 #content #video #player, #content #video #desc {
   margin-bottom: 2.25em;
 }
-/* line 34, ../../app/stylesheets/partials/_content.sass */
+/* line 38, ../../app/stylesheets/partials/_content.sass */
 #content #video #player {
   display: inline;
   float: left;
@@ -508,7 +521,7 @@ hr.line-dashed {
 * html #content #video #player {
   overflow-x: hidden;
 }
-/* line 37, ../../app/stylesheets/partials/_content.sass */
+/* line 41, ../../app/stylesheets/partials/_content.sass */
 #content #video #desc {
   display: inline;
   float: left;
@@ -520,17 +533,18 @@ hr.line-dashed {
 * html #content #video #desc {
   overflow-x: hidden;
 }
-/* line 41, ../../app/stylesheets/partials/_content.sass */
+/* line 45, ../../app/stylesheets/partials/_content.sass */
 #content #agenda h2, #content #carreira h2 {
   font-size: 2.5em;
   font-weight: bold;
+  color: #1d3142;
 }
-/* line 44, ../../app/stylesheets/partials/_content.sass */
+/* line 49, ../../app/stylesheets/partials/_content.sass */
 #content #agenda div, #content #carreira div {
   padding-left: 40px;
   margin-bottom: 1.5em;
 }
-/* line 47, ../../app/stylesheets/partials/_content.sass */
+/* line 52, ../../app/stylesheets/partials/_content.sass */
 #content #agenda {
   display: inline;
   float: left;
@@ -541,11 +555,11 @@ hr.line-dashed {
 * html #content #agenda {
   overflow-x: hidden;
 }
-/* line 49, ../../app/stylesheets/partials/_content.sass */
+/* line 54, ../../app/stylesheets/partials/_content.sass */
 #content #agenda div {
   background: transparent url('/images/icon-calendar.png?1301013879') no-repeat scroll left top;
 }
-/* line 51, ../../app/stylesheets/partials/_content.sass */
+/* line 56, ../../app/stylesheets/partials/_content.sass */
 #content #carreira {
   display: inline;
   float: left;
@@ -557,9 +571,128 @@ hr.line-dashed {
 * html #content #carreira {
   overflow-x: hidden;
 }
-/* line 54, ../../app/stylesheets/partials/_content.sass */
+/* line 59, ../../app/stylesheets/partials/_content.sass */
 #content #carreira div {
   background: transparent url('/images/icon-check.png?1301013879') no-repeat scroll left top;
+}
+/* line 61, ../../app/stylesheets/partials/_content.sass */
+#content .news, #content #sponsors {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 310px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content .news, * html #content #sponsors {
+  overflow-x: hidden;
+}
+/* line 64, ../../app/stylesheets/partials/_content.sass */
+#content .news div {
+  margin-bottom: 1.5em;
+}
+/* line 66, ../../app/stylesheets/partials/_content.sass */
+#content .news #thumb {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 70px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content .news #thumb {
+  overflow-x: hidden;
+}
+/* line 68, ../../app/stylesheets/partials/_content.sass */
+#content .news #desc {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content .news #desc {
+  overflow-x: hidden;
+}
+/* line 70, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors {
+  border: 1px solid #dce8ec;
+  background-color: #e6eff2;
+  margin-bottom: 2.625em;
+}
+/* line 74, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors h6 {
+  color: #5a5858;
+  margin-top: 0.75em;
+  margin-left: 12px;
+}
+/* line 78, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors div {
+  margin-bottom: 1.5em;
+  height: 4.5em;
+}
+/* line 81, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #logos {
+  overflow: hidden;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 230px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content #sponsors #logos {
+  overflow-x: hidden;
+}
+/* line 84, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #logos ul, #content #sponsors #logos li {
+  margin: 0;
+  padding: 0;
+}
+/* line 87, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #logos ul {
+  height: 4.5em;
+  width: 458px;
+  list-style: none;
+  border-left: 1px solid white;
+  border-right: 1px solid #a1c5d3;
+}
+/* line 93, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #logos li {
+  float: left;
+  border-left: 1px solid #a1c5d3;
+  border-right: 1px solid white;
+}
+/* line 98, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #arrow-left img, #content #sponsors #arrow-right img {
+  margin-top: 21px;
+}
+/* line 100, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #arrow-left {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content #sponsors #arrow-left {
+  overflow-x: hidden;
+}
+/* line 102, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #arrow-left img {
+  margin-left: 13px;
+}
+/* line 104, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #arrow-right {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 30px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content #sponsors #arrow-right {
+  overflow-x: hidden;
+}
+/* line 106, ../../app/stylesheets/partials/_content.sass */
+#content #sponsors #arrow-right img {
+  margin-left: 6px;
 }
 
 /* line 5, ../../app/stylesheets/partials/_billboard.sass */
@@ -725,42 +858,47 @@ ul.arrow-light li {
   border-top: 1px solid #b8c4d4;
 }
 /* line 31, ../../app/stylesheets/partials/_footer.sass */
+#footer-l h3 {
+  color: #1d3142;
+}
+/* line 33, ../../app/stylesheets/partials/_footer.sass */
 #footer-l .left, #footer-l .right {
   margin-bottom: 1.5em;
 }
-/* line 33, ../../app/stylesheets/partials/_footer.sass */
+/* line 35, ../../app/stylesheets/partials/_footer.sass */
 #footer-l #newsletter {
   margin-top: 3em;
 }
 
-/* line 36, ../../app/stylesheets/partials/_footer.sass */
+/* line 38, ../../app/stylesheets/partials/_footer.sass */
 #footer-m {
   background-color: #4e7ba3;
   border-top: 1px solid white;
 }
 
-/* line 40, ../../app/stylesheets/partials/_footer.sass */
+/* line 42, ../../app/stylesheets/partials/_footer.sass */
 #footer-d {
   background-color: #234b6f;
   border-top: 1px solid #6c9cc7;
+  height: 3em;
 }
-/* line 43, ../../app/stylesheets/partials/_footer.sass */
+/* line 46, ../../app/stylesheets/partials/_footer.sass */
 #footer-d .left, #footer-d .right {
   margin-top: 1.125em;
 }
-/* line 45, ../../app/stylesheets/partials/_footer.sass */
+/* line 48, ../../app/stylesheets/partials/_footer.sass */
 #footer-d p {
   font-size: 0.9em;
   line-height: 1;
   margin-bottom: 0.75em;
 }
 
-/* line 49, ../../app/stylesheets/partials/_footer.sass */
+/* line 52, ../../app/stylesheets/partials/_footer.sass */
 #footer-l .left, #footer-l .right, #footer-m .left, #footer-m .right {
   margin-top: 3em;
 }
 
-/* line 53, ../../app/stylesheets/partials/_footer.sass */
+/* line 56, ../../app/stylesheets/partials/_footer.sass */
 #footer-m p, #footer-m li, #footer-d p, #footer-d li {
   color: #c3ccd9;
 }

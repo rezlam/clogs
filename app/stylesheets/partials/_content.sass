@@ -17,7 +17,11 @@ hr.line-dashed
   .right
     +column(8, true)
     +prepend(1)
-    +showgrid
+    h1
+      font-weight: bold
+      font-size: 3.4em
+      margin-bottom: 0.75em
+      color: $blue-1
   #quotes
     +column(10, true)
     +prepend(1)
@@ -41,6 +45,7 @@ hr.line-dashed
     h2
       font-size: 2.5em
       font-weight: bold
+      color: $blue-1
     div
       +prepend(1)
       +append-bottom($vertical-space)
@@ -53,4 +58,50 @@ hr.line-dashed
     +prepend(1)
     div
       background: transparent image_url("icon-check.png") no-repeat scroll left top
-      
+  .news, #sponsors
+    +column(8, true)
+  .news
+    div
+      +append-bottom($vertical-space)
+    #thumb
+      +column(2)
+    #desc
+      +column(6, true)
+  #sponsors
+    border: 1px solid $grey-7
+    background-color: $grey-8
+    +append-bottom($vertical-space * 1.75)
+    h6
+      color: $grey-1
+      +prepend-top($vertical-space / 2)
+      margin-left: 12px
+    div
+      +append-bottom($vertical-space)
+      height: $vertical-space * 3
+    #logos
+      overflow: hidden
+      +column(6)
+      ul, li
+        margin: 0
+        padding: 0
+      ul
+        height: $vertical-space * 3
+        width: 458px
+        list-style: none
+        border-left: 1px solid #fff
+        border-right: 1px solid $blue-9
+      li
+        float: left
+        border-left: 1px solid $blue-9
+        border-right: 1px solid #fff
+    #arrow-left, #arrow-right
+      img
+        +prepend-top(21px)
+    #arrow-left
+      +column(1)
+      img
+        margin-left: 13px
+    #arrow-right
+      +column(1, true)
+      img
+        margin-left: 6px
