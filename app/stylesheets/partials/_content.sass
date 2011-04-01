@@ -5,17 +5,19 @@ hr.line-dashed
   +ruler
   background: transparent url('../images/line-dashed.png') repeat-x scroll 0 0
   height: 1px
+  +append-bottom($vertical-space * 2)
 
 #content
   background-color: #FFF
   .left, .right
     +prepend-top($vertical-space * 3)
+    +append-bottom($vertical-space)
   .left
     +column(12)
-    +showgrid
   .right
     +column(8, true)
     +prepend(1)
+    +showgrid
   #quotes
     +column(10, true)
     +prepend(1)
@@ -24,13 +26,31 @@ hr.line-dashed
     +quote
     h2
       +alt
+      font-size: 2.2em
       line-height: 1.35
   #video
     #player, #desc
-      +append-bottom($vertical-space)
+      +append-bottom($vertical-space * 2 - 0.75em)
     #player
       +column(6)
       +prepend(1)
     #desc
       +column(4, true)
       +append(1)
+  #agenda, #carreira
+    h2
+      font-size: 2.5em
+      font-weight: bold
+    div
+      +prepend(1)
+      +append-bottom($vertical-space)
+  #agenda
+    +column(5)
+    div
+      background: transparent image_url("icon-calendar.png") no-repeat scroll left top
+  #carreira
+    +column(6, true)
+    +prepend(1)
+    div
+      background: transparent image_url("icon-check.png") no-repeat scroll left top
+      

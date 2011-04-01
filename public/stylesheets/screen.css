@@ -123,8 +123,8 @@ h3 {
 
 /* line 71, ../../app/stylesheets/partials/_typography.sass */
 h4 {
-  font-size: 1.25em;
-  line-height: 1;
+  font-size: 1.2em;
+  line-height: 1.2;
   margin-bottom: 0.5em;
 }
 
@@ -432,41 +432,43 @@ hr.line-dashed {
   margin: 0 0 1.5em;
   background: transparent url("../images/line-dashed.png") repeat-x scroll 0 0;
   height: 1px;
+  margin-bottom: 3em;
 }
 
-/* line 9, ../../app/stylesheets/partials/_content.sass */
+/* line 10, ../../app/stylesheets/partials/_content.sass */
 #content {
   background-color: white;
 }
-/* line 11, ../../app/stylesheets/partials/_content.sass */
+/* line 12, ../../app/stylesheets/partials/_content.sass */
 #content .left, #content .right {
   margin-top: 4.5em;
+  margin-bottom: 1.5em;
 }
-/* line 13, ../../app/stylesheets/partials/_content.sass */
+/* line 15, ../../app/stylesheets/partials/_content.sass */
 #content .left {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 470px;
-  background: url('/images/grid.png?1300057983');
 }
 /* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html #content .left {
   overflow-x: hidden;
 }
-/* line 16, ../../app/stylesheets/partials/_content.sass */
+/* line 17, ../../app/stylesheets/partials/_content.sass */
 #content .right {
   display: inline;
   float: left;
   margin-right: 0;
   width: 310px;
   padding-left: 40px;
+  background: url('/images/grid.png?1300057983');
 }
 /* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html #content .right {
   overflow-x: hidden;
 }
-/* line 19, ../../app/stylesheets/partials/_content.sass */
+/* line 21, ../../app/stylesheets/partials/_content.sass */
 #content #quotes {
   display: inline;
   float: left;
@@ -481,19 +483,20 @@ hr.line-dashed {
 * html #content #quotes {
   overflow-x: hidden;
 }
-/* line 25, ../../app/stylesheets/partials/_content.sass */
+/* line 27, ../../app/stylesheets/partials/_content.sass */
 #content #quotes h2 {
   color: #999999;
   font-family: Georgia, "Book Antiqua", "Warnock Pro", "Goudy Old Style", "Palatino", serif;
   font-style: italic;
   font-weight: normal;
+  font-size: 2.2em;
   line-height: 1.35;
 }
-/* line 29, ../../app/stylesheets/partials/_content.sass */
+/* line 32, ../../app/stylesheets/partials/_content.sass */
 #content #video #player, #content #video #desc {
-  margin-bottom: 1.5em;
+  margin-bottom: 2.25em;
 }
-/* line 31, ../../app/stylesheets/partials/_content.sass */
+/* line 34, ../../app/stylesheets/partials/_content.sass */
 #content #video #player {
   display: inline;
   float: left;
@@ -505,7 +508,7 @@ hr.line-dashed {
 * html #content #video #player {
   overflow-x: hidden;
 }
-/* line 34, ../../app/stylesheets/partials/_content.sass */
+/* line 37, ../../app/stylesheets/partials/_content.sass */
 #content #video #desc {
   display: inline;
   float: left;
@@ -516,6 +519,47 @@ hr.line-dashed {
 /* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html #content #video #desc {
   overflow-x: hidden;
+}
+/* line 41, ../../app/stylesheets/partials/_content.sass */
+#content #agenda h2, #content #carreira h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+/* line 44, ../../app/stylesheets/partials/_content.sass */
+#content #agenda div, #content #carreira div {
+  padding-left: 40px;
+  margin-bottom: 1.5em;
+}
+/* line 47, ../../app/stylesheets/partials/_content.sass */
+#content #agenda {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 190px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content #agenda {
+  overflow-x: hidden;
+}
+/* line 49, ../../app/stylesheets/partials/_content.sass */
+#content #agenda div {
+  background: transparent url('/images/icon-calendar.png?1301013879') no-repeat scroll left top;
+}
+/* line 51, ../../app/stylesheets/partials/_content.sass */
+#content #carreira {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+  padding-left: 40px;
+}
+/* line 138, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content #carreira {
+  overflow-x: hidden;
+}
+/* line 54, ../../app/stylesheets/partials/_content.sass */
+#content #carreira div {
+  background: transparent url('/images/icon-check.png?1301013879') no-repeat scroll left top;
 }
 
 /* line 5, ../../app/stylesheets/partials/_billboard.sass */
