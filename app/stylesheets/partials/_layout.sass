@@ -30,17 +30,14 @@
 #container
   +container
   margin: 0 auto 0 0
-  
 #header
   +column($header-columns, true)
   +prepend($blueprint-grid-columns - $header-columns)
-
+  text-align: right
 #spacer
   +column($spacer-columns)
-
 #content
   +column($content-columns, true)
-
 #footer-l, #footer-m, #footer-d
   +column($blueprint-grid-columns, true)
 

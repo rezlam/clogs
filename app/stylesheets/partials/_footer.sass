@@ -28,8 +28,10 @@ $quick-nav-columns: 4
 #footer-l
   background-color: $blue-8
   border-top: 1px solid $blue-7
-  h3
+  h3, h4
     color: $blue-1
+  a
+    +link-colors($blue-2, $blue-2, $link-active-color, $blue-2, $link-focus-color)
   .left, .right
     +append-bottom($vertical-space)
   #newsletter

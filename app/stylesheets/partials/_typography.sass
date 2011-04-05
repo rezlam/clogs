@@ -1,5 +1,5 @@
-@import "colors"
-@import "compass/utilities/links/link-colors"
+//@import "colors"
+//@import "compass/utilities/links/link-colors"
 @import "compass/utilities/general/float"
 
 $font-family: Arial, Helvetica, "Helvetica Neue", sans-serif !default
@@ -93,8 +93,10 @@ $header-color: $blue-1
       margin: 1.5em 0 1.5em 1.5em
       padding: 0
   a
-    text-decoration: underline
-    +link-colors($link-color, $link-hover-color, $link-active-color, $link-visited-color, $link-focus-color)
+    text-decoration: none
+    +link-colors($blue-4, $blue-4, $link-active-color, $blue-4, $link-focus-color)
+    &:hover
+      text-decoration: underline
   blockquote
     margin: 1.5em
     color: $alt_text_color

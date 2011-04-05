@@ -6,6 +6,9 @@
   border: none
   margin: 0 0 $vertical-space
 
+=red
+  color: #f00
+
 body
   background: #FFF image_url("pattern-background.png") repeat-x scroll left ($vertical-space * 5)
 
@@ -26,3 +29,6 @@ body
 p.small
   +prepend-top(-0.25em)
 
+a.red
+  +red
+  
