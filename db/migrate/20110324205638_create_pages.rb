@@ -7,12 +7,11 @@ class CreatePages < ActiveRecord::Migration
       t.text :content
       t.string :layout
       t.string :url
-      t.integer :views, :default => 0
-      t.boolean :published, :default => false
+      t.integer :views, :null => false, :default => 0
+      t.boolean :published, :null => false, :default => false
       t.timestamp :published_at
-      
-      t.references :page, :default => 1
-
+      t.references :page
+      t.boolean :active, :null => false, :default => true
       t.timestamps
     end
   end

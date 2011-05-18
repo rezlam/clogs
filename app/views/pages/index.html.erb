@@ -10,6 +10,8 @@
     <th>Url</th>
     <th>Views</th>
     <th>Published</th>
+    <th>Published At<th/>
+    <th>Parent</th>
     <th></th>
     <th></th>
     <th></th>
@@ -25,6 +27,9 @@
     <td><%= page.url %></td>
     <td><%= page.views %></td>
     <td><%= page.published %></td>
+    <td><%= page.published_at %></td>
+    <td><%= page.page_id %></td>
+    <td><%= page.active %></td>
     <td><%= link_to 'Show', page %></td>
     <td><%= link_to 'Edit', edit_page_path(page) %></td>
     <td><%= link_to 'Destroy', page, :confirm => 'Are you sure?', :method => :delete %></td>

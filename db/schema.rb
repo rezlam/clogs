@@ -19,10 +19,11 @@ ActiveRecord::Schema.define(:version => 20110324205638) do
     t.text     "content"
     t.string   "layout"
     t.string   "url"
-    t.integer  "views",        :default => 0
-    t.boolean  "published",    :default => false
+    t.integer  "views",        :default => 0,     :null => false
+    t.boolean  "published",    :default => false, :null => false
     t.datetime "published_at"
-    t.integer  "page_id",      :default => 1
+    t.integer  "page_id"
+    t.boolean  "active",       :default => true,  :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
